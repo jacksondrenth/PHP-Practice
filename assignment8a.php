@@ -49,11 +49,10 @@ $conn = null;
       <h2>Customer Dry Cleaning Totals</h2>
     </div>
 	<div class='container'>
-	  <label>Item name:</label>
 	  <form method='post' class='mb-3'>
 		<div>
 		<label for="min_total">Minimum Total Dry Cleaning:</label>
-			<input type="number" class="form-control" name="min-total" placeholder="Enter a neumber..." min=0>
+			<input type="number" class="form-control" name="min-total" placeholder="Enter a number..." min=0>
 		<button class='btn btn-info' name='submit'>
 		  Submit
 		  </button>
