@@ -1,6 +1,6 @@
 <?php
 require_once("db.php");
-$customers = $message = $items = $invoiceID = "";
+$customers = $message = $items = "";
 // query ids and names
 $stmt = $conn->query(
   "SELECT customer_id, CONCAT(first_name, ' ', last_name) as full_name
